@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="new_app_name">Avengers</string>
+    <string name="Mobile_Number">Enter Mobile Number</string>
+    <string name="Enter_Password">enter password</string>
+    <string name="log_in">Log in</string>
+    <string name="register_yourself">register yourself</string>
+    <string name="preference_file_name">Avengers Preference</string>
+</resources>

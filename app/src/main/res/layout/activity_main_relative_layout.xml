@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Welcome to android development with sudhir"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtSubHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtHeader"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="#64dd17"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:text="Android is fun" />
+
+    <ImageView
+        android:id="@+id/imgTony"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/tony" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="click here"
+        android:layout_alignParentBottom="true"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="#01579b"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtSubHeader"
+        android:layout_margin="20dp"
+        android:inputType="text"
+        android:hint="enter your name bro"
+        />
+
+</RelativeLayout>
